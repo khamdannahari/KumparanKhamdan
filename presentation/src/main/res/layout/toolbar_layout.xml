@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:gravity="center"
+  android:background="@android:color/transparent">
+
+  <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:paddingEnd="10dp"
+    app:contentInsetStartWithNavigation="0dp"
+    android:layout_height="?android:attr/actionBarSize"
+    android:layout_margin="10dp"
+    android:background="@drawable/card_green"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:titleTextAppearance="@style/TextAppearance.Toolbar"
+    tools:title="Post"
+    tools:ignore="RtlSymmetry" />
+
+</com.google.android.material.appbar.AppBarLayout>

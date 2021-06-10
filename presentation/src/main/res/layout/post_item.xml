@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="160dp"
+  android:layout_marginHorizontal="16dp"
+  android:layout_marginVertical="8dp"
+  android:background="@drawable/card_blue"
+  android:orientation="vertical"
+  android:padding="16dp"
+  android:theme="@style/Base.V1.Theme">
+
+  <TextView
+    android:id="@+id/tv_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="end"
+    android:maxLines="1"
+    android:textSize="18sp"
+    tools:text="MyText" />
+
+  <TextView
+    android:id="@+id/tv_body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="end"
+    android:maxLines="2"
+    android:textAppearance="@style/TextAppearance.Regular"
+    android:textStyle="normal"
+    tools:text="MyText\nMyText" />
+
+  <TextView
+    android:id="@+id/tv_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:ellipsize="end"
+    android:maxLines="1"
+    tools:text="MyText" />
+
+  <TextView
+    android:id="@+id/tv_company"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="end"
+    android:maxLines="1"
+    tools:text="MyText" />
+
+</LinearLayout>
